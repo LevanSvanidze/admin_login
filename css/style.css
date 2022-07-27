@@ -1,0 +1,118 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.mail-position{
+    position: absolute;
+    row-gap: 50px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+#emails{
+    position: flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center ;
+    width: 350px;
+    height: 35px;
+    border:outset 2px #009dff;
+    -moz-border-radius-top-left: 15px;
+    -moz-border-radius-top-right:15px;
+    -moz-border-radius-bottom-left:15px;
+    -moz-border-radius-bottom-right:15px;
+    -webkit-border-top-left-radius:15px;
+    -webkit-border-top-right-radius:15px;
+    -webkit-border-bottom-left-radius:15px;
+    -webkit-border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+#passwords{
+    position: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 350px;
+    height: 35px;
+    border: inset 2px #04629cdb;
+    -moz-border-radius-top-left: 15px;
+    -moz-border-radius-top-right:15px;
+    -moz-border-radius-bottom-left:15px;
+    -moz-border-radius-bottom-right:15px;
+    -webkit-border-top-left-radius:15px;
+    -webkit-border-top-right-radius:15px;
+    -webkit-border-bottom-left-radius:15px;
+    -webkit-border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+#passwords{
+    position: absolute;
+    row-gap: 50px;
+    left: 50%;
+    top: 58%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+/* ჩასასწორებელია  ბორდერის ფერის დაჯენა მინდა როცა ვააქტიურებ 
+
+#emails::marker{
+    border: inset 2px #009dff;
+}
+*/
+
+#submit{
+    position: absolute;
+    row-gap: 50px;
+    left: 50%;
+    top: 65%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    width: 350px;
+    height: 35px;
+    border: inset 3px #159710b5;
+    cursor: pointer;
+    -moz-border-radius-top-left: 15px;
+    -moz-border-radius-top-right:15px;
+    -moz-border-radius-bottom-left:15px;
+    -moz-border-radius-bottom-right:15px;
+    -webkit-border-top-left-radius:15px;
+    -webkit-border-top-right-radius:15px;
+    -webkit-border-bottom-left-radius:15px;
+    -webkit-border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+
+#submit:active{
+    background-color: grey;
+}
+#submit:hover{
+    background-color: rgb(226, 226, 226);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/css/reset.css">
+      <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="/css/media.css">
+      <title>Home</title>
+   </head>
+   <body background ="/images/photos.jpg">
+      <div id="section-1" >
+         <!-- first section -->
+         <div class="mail-position">
+            <input type="email" placeholder="Enter email" id="emails" name="emails" multiple>
+         </div>
+         <input type="password" placeholder="password" id="passwords" name="passwords" multiple>
+         <form action="/action_page.php">
+            <input type="submit" value="Submit" id="submit" >
+         </form>
+      </div>
+      <!-- section hourglass -->
+      <div class="hourglass">
+         <style>
+            #div1 {
+            font-size:20px;
+            position: absolute;
+            left: 55%;
+            top: 65%;
+            transform: translate(-50%, -50%);
+            }
+         </style>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <div id="div1" class="fa"></div>
+         <script >
+            function hourglass() {
+            var a;
+            a = document.getElementById("div1");
+            a.innerHTML = "&#xf251;";
+            setTimeout(function () {
+                a.innerHTML = "&#xf252;";
+                }, 1000);
+            setTimeout(function () {
+                a.innerHTML = "&#xf253;";
+                }, 2000);
+            }
+            hourglass();
+            setInterval(hourglass, 3000);
+         </script>
+      </div>
+   </body>
+</html>

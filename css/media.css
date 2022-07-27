@@ -1,0 +1,21 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width:760px){
+    .hourglass{
+        position:absolute;
+        top: 65%;
+        left: 60%;
+    }
+}
+@media (max-width:420px){
+    .hourglass{
+        position: absolute;
+        top: 65%;
+        left: 64%;
+    }
+}
